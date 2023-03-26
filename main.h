@@ -5,6 +5,10 @@
 #include <stdio.h>
 #include <unistd.h>
 
+/* Const */
+#define UNUSED(x) (void)(x)
+#define BUFF_SIZE 1024
+
 
 /* Props */
 int _printf(const char *format, ...);
